@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Reviews</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    ul > li {
+      list-style-type: none;
+      display: inline-block;
+      margin: 15px 5px;
+    }
+    div{
+      margin: 15px 0px;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Restaurant Reviews</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="addreview.html">Add Review</a></li>
+          <li><a href="aboutpage.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Add Restaurant Reviews</h1>
+        <form action="">
+          <div>
+          <label for="name">Name?</label>
+          <input type="text" name="name" id="name">
+          </div>
+          <div>
+          <label for="Restaurant">Restaurant?</label>
+          <select name="Restaurant" id="Restaurant">
+            <option value="Choose one..." selected>Choose one...</option>
+            <option value="Main Street Cafe">Main Street Cafe</option>
+            <option value="Greek House">Greek House</option>
+            <option value="Om Sai Hotel">Om Sai Hotel</option>
+            <option value="Captain Hotel">Captain Hotel</option>
+            
+          </select>
+          </div>
+          <div>
+          <label for="date">Date of visit?</label>
+          <input type="date" name="date" id="date">
+          </div>
+           <div>
+          <label for="rating">Rating?</label>
+          <input type="number" name="rating" id="rating" value="5" min="0" max="5">
+          </div>
+          <div>
+            <label for="details">Details?</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+    </main>
+    <footer>
+      <p>&copy; 2022 Restaurant Review</p>
+    </footer>
+  </body>
+</html>

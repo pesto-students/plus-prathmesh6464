@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starting Lineup</title>
+  </head>
+  <body>
+    <h1>Starting Lineup</h1>
+    <form action="">
+      <fieldset>
+        <legend>Status:</legend>
+        <p>
+          <input type="radio" name="status" id="status" value="Draft" />
+          <label for="status">Draft</label>
+
+          <input type="radio" name="status" id="status" value="Final" checked />
+          <label for="status">Final</label>
+        </p>
+      </fieldset>
+      <br />
+      <label for="gameDate">Date: </label>
+      <select name="gameDate" id="gameDate">
+        <option value="March 20">March 20</option>
+        <option value="March 24">March 24</option>
+        <option value="April 2">April 2</option>
+        <option value="April 6">April 6</option>
+        <option value="April 13">April 13</option>
+      </select>
+      <br /><br />
+      <fieldset>
+        <legend>Players:</legend>
+
+        <input
+          type="checkbox"
+          name="player"
+          id="player"
+          value="Aarav Agarwal"
+        /><label for="">Aarav Agarwal</label><br />
+        <input
+          type="checkbox"
+          name="player"
+          id="player"
+          value="Ava Johnson"
+        /><label for="">Ava Johnson</label><br />
+        <input
+          type="checkbox"
+          name="player"
+          id="player"
+          value="Julio Ortiz"
+        /><label for="">Julio Ortiz</label><br />
+        <input
+          type="checkbox"
+          name="player"
+          id="player"
+          value="Liam Rubio"
+        /><label for="">Liam Rubio</label><br />
+        <input
+          type="checkbox"
+          name="player"
+          id="player"
+          value="Emma Witherspoon"
+        /><label for="">Emma Witherspoon</label>
+      </fieldset>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
