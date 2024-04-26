@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form for joining a social network</title>
+  </head>
+  <style>
+    lable {
+      display: inline-block;
+      width: 150px;
+    }
+  </style>
+  <body>
+    <h1>Join a social network</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+      <div>
+        <lable for="fullName">Full name: </lable>
+        <input type="text" id="fullName" name="fullName" required />
+      </div>
+      <br />
+      <div>
+        <lable for="email">Email address:</lable>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <br />
+      <div>
+        <lable for="about">About you:</lable>
+        <textarea name="about" id="about" cols="50" rows="3"></textarea>
+      </div>
+      <br />
+      <div>
+        <lable for="picture">Photo:</lable>
+        <input type="file" name="picture" id="picture" />
+      </div>
+      <br />
+      <div>
+        <input type="submit" name="" id="" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>

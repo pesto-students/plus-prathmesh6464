@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Message Creator</title>
+  </head>
+  <style>
+    lable {
+      display: inline-block;
+      width: 150px;
+    }
+  </style>
+  <body>
+    <h1>Happy Birthday Message Creator</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+      <div>
+        <lable for="message">Message? </lable>
+        <input type="text" name="message" id="message" />
+      </div>
+      <br />
+      <div>
+        <lable for="email">Email address?</lable>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          pattern="[a-zA-Z0-9-_.]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0- 9-]+)*"
+        />
+      </div>
+      <br />
+      <div>
+        <lable for="date">Date to send?</lable>
+        <input type="date" name="date" id="date" />
+      </div>
+      <br />
+      <div>
+        <lable for="color">Message color?</lable>
+        <input type="color" name="color" id="color" />
+      </div>
+      <br />
+      <div>
+        <lable for="blinks">Number of binks?</lable>
+        <input
+          type="number"
+          name="blinks"
+          id="blinks"
+          value="0"
+          min="0"
+          max="10"
+        />
+      </div>
+      <br />
+      <div>
+        <lable for="music">Music volumne?</lable>
+        <input
+          type="range"
+          name="music"
+          id="music"
+          value="20"
+          min="0"
+          max="50"
+        />
+      </div>
+      <br />
+      <div>
+        <input
+          type="submit"
+          name="submit"
+          id="submit"
+          value="Send Birthday Message"
+        />
+      </div>
+    </form>
+  </body>
+</html>
